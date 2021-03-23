@@ -1,0 +1,149 @@
+.footer-section{
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__list{
+    display: flex;
+    padding: 0;
+  }
+
+  &__item{
+    &--first{
+      margin-right: 70px;
+    }
+
+    &--second{
+      padding-top: 7px;
+    }
+
+    &--third{
+      position: relative;
+      height: 95px;
+      margin-left: 93px;
+      padding-top: 9px;
+    }
+
+    .contact-list{
+      display: block;
+    }
+  }
+
+  &__heading{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
+
+
+.footer{
+  &__social-icons{
+    margin-top: 20px;
+  }
+
+  &__contact-list{
+    margin: 0 0;
+    padding-left: 0;
+  }
+
+  &__logo{
+    color: #ffffff;
+  }
+}
+
+.social-icons__item--background{
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.address{ 
+  font-style: normal;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 231px;
+  height: 21px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.contact-list{
+  &__item--position{ 
+    width: 231px;
+    height: 21px;
+    margin-top: 9px;
+  }
+
+  &__link--colour{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+}
+
+.subscribe-form{
+  display: flex;
+  flex-direction: column;
+
+  &__lable{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+
+  &__input{
+    width: 358px;
+    height: 50px;   
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px 16px;
+    background-color: #2F303A;
+  }
+
+  &__button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 62px 10px 29px;
+    margin-left: 12px;
+  }
+
+  &__icon{
+    top: 13px;
+    right: 28px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+  }
+}
+
+.f-m-b{
+  height: 50px;
+}
