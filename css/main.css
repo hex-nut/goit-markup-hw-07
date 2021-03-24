@@ -89,7 +89,7 @@ header .contact-list {
           align-items: center;
 }
 
-.navlist {
+.nav__list {
   padding: 0;
   margin: 0;
   display: -webkit-box;
@@ -239,9 +239,9 @@ header .contact-list {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.backdrop .modal {
-  -webkit-transform: translate(-50%, -50%) scale(1.5);
-          transform: translate(-50%, -50%) scale(1.5);
+.backdrop.modal {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
 }
 
 .backdrop.backdrop__is-hidden {
@@ -1028,6 +1028,10 @@ header .contact-list {
 .social-icons__item--background {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icons__item--background .social-icons__icon {
+  fill: #ffffff;
 }
 
 .address {
